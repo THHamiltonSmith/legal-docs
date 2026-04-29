@@ -1,0 +1,29 @@
+{
+  "name": "legal-docs",
+  "version": "1.0.0",
+  "description": "Claude Code skill that generates jurisdiction-aware Privacy Policies and Terms & Conditions for SaaS products and apps.",
+  "bin": {
+    "legal-docs": "./bin/install.js"
+  },
+  "scripts": {},
+  "files": [
+    "SKILL.md",
+    "references/",
+    "bin/"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-skill",
+    "privacy-policy",
+    "terms-of-service",
+    "terms-and-conditions",
+    "legal",
+    "gdpr",
+    "saas"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
