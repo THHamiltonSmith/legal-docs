@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const os = require('os');
 
-const SKILL_NAME = 'legal-docs';
+const SKILL_NAME = 'legal-docs-skill';
 const SOURCE_DIR = path.join(__dirname, '..');
 const TARGET_DIR = path.join(os.homedir(), '.claude', 'skills', SKILL_NAME);
 const SKILL_FILES = ['SKILL.md', 'references'];

@@ -1,4 +1,4 @@
-# privacy-and-terms-generator
+# legal-docs
 
 A Claude Code skill that generates Privacy Policies and Terms & Conditions for SaaS products, apps, and digital services.
 
@@ -38,17 +38,10 @@ This is a skill for [Claude Code](https://claude.ai/code). You'll need Claude Co
 ### Installation
 
 ```bash
-npx legal-docs
+npx legal-docs-skill
 ```
 
 That's it. Copies the skill into `~/.claude/skills/` and you're done. Restart Claude Code after running it.
-
-### Using it
-
-Once installed, you can trigger it two ways:
-
-- Type `/legal-docs` in Claude Code to invoke it directly
-- Or just ask naturally — "I need a privacy policy for my app" and Claude will pick it up
 
 ### Using it
 
@@ -83,7 +76,7 @@ If you can afford it, get a real lawyer to review anything before you publish it
 ## What's in the repo
 
 ```
-privacy-and-terms-generator/
+legal-docs/
 ├── SKILL.md                    ← the skill itself
 └── references/
     ├── document-sections.md    ← required sections for both documents

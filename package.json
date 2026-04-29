@@ -1,9 +1,9 @@
 {
-  "name": "legal-docs",
+  "name": "legal-docs-skill",
   "version": "1.0.0",
   "description": "Claude Code skill that generates jurisdiction-aware Privacy Policies and Terms & Conditions for SaaS products and apps.",
   "bin": {
-    "legal-docs": "./bin/install.js"
+    "legal-docs-skill": "bin/install.js"
   },
   "scripts": {},
   "files": [
